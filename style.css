@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Sans-serif;
+}
+
+.all-socail-logo {
+    display: flex;
+}
+
+.social-logo a {
+    padding: 10px;
+    background-color: #FFD563;
+    color: blue;
+    margin-left: 8px;
+    border-radius: 3px;
+
+}
+
+.col-2.quick-link ul li {
+    list-style: none;
+    padding: 3px;
+}
+
+.col-2.quick-link ul li a {
+    text-decoration: none;
+    
+}
+.contact-info {
+    display: flex;
+}
+.quick-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+.col-2.quick-link ul li a:hover {
+    color: #FFD563;
+    transition: all 0.5s ease;
+}
+
+.contact-icon a {
+    color: #FFD563;
+    margin-right: 10px;
+}
+.contact-address a {
+    color: white;
+}
+.link-menu{
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+.background-pic{
+    
+    background-image: url(images/levitan-museum-volga-embankment-plyos-snow-light-evening-lanterns.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -210px;
+}
+.box-icon {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+.box-title {
+    justify-content: center;
+    display: flex;
+}
+.icon-parts:hover {
+    background-color: #FFD563 !important;
+    transition: all 0.5s ease !important;
+    color: black !important;
+    
+}
+
+.all-socail-logo .social-logo:hover{
+ transform: scale(1.5);
+ padding: 5px;
+}
+
+
+.W-Ch-Icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+}
+    
+
+.icon-design{
+    background-color: #FFD563 !important;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.relative-about {
+    position: relative;
+    background-color: #FFD563 !important;
+    
+    width:350px;
+    height: 450px;
+}
+.absolute-about img {
+    position: absolute;
+    width: 350px !important;
+    height: 450px !important;
+    top: -20px;
+    left: 20px;
+}
+
+.about-us-Backg{
+    background-image: url(images/about-us-bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+}
+.about-us-bg-color{
+    background-color: #F5F8FA;
+    opacity: 0.9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.our-service-backg{
+    background: url(images/professional-cleaning-service-person-cleaning-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.our-Service-Color-bg{
+    
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.font-wt{
+    font-weight: 800;
+}
+
+
+.why-choose-background{
+    background-image: url(images/8040815.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+   
+}
+
+
+.w-ch-backg-color {
+    
+    background-color: rgba(255, 255, 255, 0.9);
+}
+    
+
+
+
+.relative {
+    position: relative;
+    background-color: #FFD563 !important;
+    
+    width:400px;
+    height: 500px;
+}
+.absolute img {
+    position: absolute;
+    width: 400px !important;
+    height: 500px !important;
+    top: -20px;
+    left: 20px;
+}
+.nav-link:hover {
+    color: #FFD563 !important;
+}
+.dropdown-item:hover {
+    background-color: #FFD563;
+   
+    transition: all 0.5s ease;
+}
+.dropdown-item {
+    padding: 8px;
+}
+.how-it-work-title,
+.three-step-part{
+    text-align: center;
+}
+
+.hw-it-backg-color{
+    background-color: #F5F8FA;
+    opacity: 0.9;
+}
+
+.swiper-pagination-bullet {
+    background: white;
+}
+.service-part-one-backg{
+    background-image: url('images/woman-yellow-rubber-glove-cleaning-stove-kitchen-banner-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.service-part-one-backg-color{
+    background-size: cover;
+   
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.expert-bg-color-relative{
+    position: relative;
+    background-color: #FFD563 !important;
+    width: 350px; 
+    height: 270px;
+    
+}
+
+.expert-photo-absolute img{
+    width: 350px;
+    height: 270px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    
+    
+}
+
+.vacation-cleaning-part{
+    background-image: url('images/woman-yellow-rubber-glove-cleaning-stove-kitchen-banner-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.vacation-cleaning-part-backg-color{
+    background-size: cover;
+   
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.VC-Backg {
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+.VC-Backg p {
+    color:gray ;
+    font-weight: 600;
+}
+.VC-Backg h2 {
+ 
+    font-weight: 600;
+}
+
+.vc-image img {
+    height: 350px;
+}
+
+.deep-bg-color-relative{
+    position: relative;
+    background-color: #FFD563 !important;
+    width: 400px; 
+    height: 400px;
+    
+    
+}
+
+.deep-photo-absolute img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  
+}
+
+.sp-hover i:hover {
+    color: #FFD563 !important;
+    transition-duration: 0.5s !important;
+}
+.sp-hover p:hover {
+    color: #FFD563 !important;
+    transition-duration: 0.5s !important;
+}
+
+.interior-construction-part{
+    background-image: url('images/professional-cleaners.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.interior-construction-part-backg-color{
+    background-size: cover;
+   
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.ic-Backg {
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+.ic-Backg p {
+    color:gray ;
+    font-weight: 600;
+}
+.ic-Backg h2 {
+ 
+    font-weight: 600;
+}
+
+.ic-image img {
+    height: 350px;
+}
+
+.post-const-bg-color-relative{
+    position: relative;
+    background-color: #FFD563 !important;
+    width: 400px; 
+    height: 400px;
+    
+    
+    
+}
+
+.post-const-photo-absolute img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    
+}
+.cc-image img{
+    width: 500px;
+    height: auto;
+}
+
+.contact-us-part-one-backg{
+    background-image: url('images/woman-cleaning-counter-banner-photo-home-kitchen-hand-rubber-glove-with-spray-bottle-dish-cloth.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.contact-us-part-one-backg-color{
+    background-size: cover;
+   
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+.sub {
+    background-color: #FFD563;
+    border: none;
+}
+
+/* *********Button Sake CSS Start******** */
+button:hover {
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  /* *********Button Sake CSS End******** */
+
+  /* ****swiper-slide CSS Start****  */
+
+  html,
+  .slider {
+    position: relative;
+    height: 100%;
+  }
+
+  .slider {
+    background: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+   /* ****swiper-slide CSS End****  */
