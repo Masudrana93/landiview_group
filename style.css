@@ -18,12 +18,12 @@
 
 }
 
-.col-2.quick-link ul li {
+.quick-link ul li {
     list-style: none;
     padding: 3px;
 }
 
-.col-2.quick-link ul li a {
+.quick-link ul li a {
     text-decoration: none;
     
 }
@@ -34,7 +34,7 @@
     text-decoration: none;
     color: white;
 }
-.col-2.quick-link ul li a:hover {
+.quick-link ul li a:hover {
     color: #FFD563;
     transition: all 0.5s ease;
 }
@@ -57,7 +57,7 @@
 }
 .background-pic{
     
-    background-image: url(images/levitan-museum-volga-embankment-plyos-snow-light-evening-lanterns.jpg);
+    background-image: url(images/card-2.jpg);
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -400,40 +400,61 @@ button:hover {
 
   /* *********Button Sake CSS End******** */
 
-  /* ****swiper-slide CSS Start****  */
+  
 
-  html,
-  .slider {
-    position: relative;
-    height: 100%;
-  }
+   /* ****Swiper Slider Recent Work CSS Start**** */
 
-  .slider {
-    background: black;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
+   html,
+    body {
+      position: relative;
+      height: 100%;
+    }
 
-  .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+    body {
+      
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    
-  }
+    .swiper {
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-   /* ****swiper-slide CSS End****  */
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* ****Swiper Slider Recent Work CSS End**** */
+
+    /* recent-work-bg CSS start  */
+
+    .recent-work-bg{
+        background: url(images/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-attachment: fixed;
+    }
+    .recent-work-color-bg{
+        
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    /* recent-work-bg CSS end */
