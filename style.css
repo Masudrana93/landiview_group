@@ -379,7 +379,7 @@
 }
 
 /* *********Button Sake CSS Start******** */
-button:hover {
+.jakano:hover {
     animation: shake 2s;
     animation-iteration-count: infinite;
   }
@@ -492,6 +492,3 @@ button:hover {
     }
 
 
-.s{
-    justify-content:  ;
-}
