@@ -190,6 +190,7 @@
 }
 .dropdown-item {
     padding: 8px;
+    font-size: 15px;
 }
 .how-it-work-title,
 .three-step-part{
@@ -508,4 +509,6 @@
 
       /* Offers-card CSS end  */
 
-
+    .navbar{
+        font-size: 13px;
+    }
