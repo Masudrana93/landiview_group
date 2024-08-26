@@ -157,15 +157,15 @@
 .why-choose-background{
     background-image: url(images2/appartment-1.jpg);
     background-position: center;
-    background-size: contain;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
 
 
 .w-ch-backg-color {
     
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
     
 
