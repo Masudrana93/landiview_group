@@ -186,16 +186,17 @@
     left: 20px;
 }
 .nav-link:hover {
-    color: #FFD563 !important;
+    color: green !important;
 }
 .dropdown-item:hover {
     background-color: #FFD563;
-   
+    color: red !important;
     transition: all 0.5s ease;
 }
 .dropdown-item {
     padding: 8px;
     font-size: 15px;
+    
 }
 .how-it-work-title,
 .three-step-part{
@@ -516,4 +517,12 @@
 
     .navbar{
         font-size: 13px;
+    }
+
+    .nav-backg-img{
+        background: url(images2/business-bg-_1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-attachment: fixed;
     }
