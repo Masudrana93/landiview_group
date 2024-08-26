@@ -30,6 +30,11 @@
 .contact-info {
     display: flex;
 }
+
+.footer-border-right{
+    border-right: 2px solid #FFD563;
+}
+
 .quick-link ul li a {
     text-decoration: none;
     color: white;
