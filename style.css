@@ -520,13 +520,19 @@
     }
 
     .nav-backg-img{
-        background: url(images2/business-bg-_1.jpg);
+        background: url(images2/header-bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover ;
         background-attachment: fixed;
+        
     }
 
     .margin-top-125{
         margin-top: 125px;
+    }
+
+    .nav-backg-img img{
+        
+        max-width: 100%;
     }
