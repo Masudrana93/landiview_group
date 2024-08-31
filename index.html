@@ -7,9 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- lightbox's Css -->
   <link rel="stylesheet" href="css/lightbox.min.css">
 
@@ -33,10 +32,89 @@
 
   <!-- *************Header part Start********* -->
 
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg fixed-top border-bottom border-2 border-danger shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="index.html"><img class="img-fluid" src="images/main_logo.png" alt="Main Logo"></a>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm border-bottom border-2 border-warning nav-backg-img bg-transparent">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="about-us.html">ABOUT US</a>
+            </li>
+            
+            <li class="nav-item dropdown">
 
-    <div class="container-fluid ">
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="properties.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PROPERTIES
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="nav-link dropdown-item" href="luxury.html">Luxury</a></li>
+                <li><a class="nav-link dropdown-item" href="classic.html">Classic</a></li>
+
+                <li><a class="nav-link dropdown-item" href="wellness-communities.html">Wellness Communities</a></li>
+
+                <li><a class="nav-link dropdown-item" href="commercial.html">Commercial</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="businesses.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BUSINESSES
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="nav-link dropdown-item" href="landview-devel-design.html">Landview
+                    Development & Design Ltd.</a></li>
+                <li><a class="nav-link dropdown-item" href="landview-builders.html">Landview Builders Ltd.</a></li>
+
+                <li><a class="nav-link dropdown-item" href="landview-properties.html">
+                    Landview Properties Ltd.</a></li>
+
+                <li><a class="nav-link dropdown-item" href="landview-engr-const.html">Landview Engineering &
+                    Constructions Ltd.</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="offers.html">OFFERS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="construction-status.html">CONSTRUCTION STATUS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="contact-us.html">CONTACT US</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      <a class="login-button jakano"  href="#"><i class="bi bi-telephone"></i> Call</a>
+      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Navbar End  -->
+
+  <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm border-bottom border-2 border-warning nav-backg-img bg-transparent">
+
+    <div class="container-fluid">
       <div class="container">
         <div class="row">
 
@@ -46,11 +124,7 @@
                 alt="Main Logo"></a>
               
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            
           </div>
 
           <div class="col-md-9 col-4 d-flex justify-content-center ps-0">
@@ -120,8 +194,13 @@
             <button type="button" class="btn jakano rounded-pill text-success font-wt" style="width: 100px; height: 50px; background-color: #FFD563;" data-bs-toggle="popover" title="Phone Number" data-bs-content="+880 1897-485737"><i class="bi bi-telephone"></i> Call</button>
           </div>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
       </div>
-  </nav>
+  </nav> -->
 
 
   <!-- *************Header part End********* -->
@@ -675,20 +754,10 @@
   <!-- **********Footer Part End*********** -->
 
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-  
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  <!-- Boostrap Js bundle with popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
- -->
 
   <script src="js/lightbox-plus-jquery.min.js"></script>
 
@@ -701,12 +770,12 @@
   <script src="Swiper-slider-recent-work.js"></script>
 
   <!-- popovers-js for call button -->
- 
+
   <script>
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-      })
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
   </script>
 
 
