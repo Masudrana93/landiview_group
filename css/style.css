@@ -176,7 +176,7 @@ color: green !important;
 
 .background-pic{
     
-    background-image: url(images/card-2.jpg);
+    background-image: url(../images/card-2.jpg);
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +243,7 @@ color: green !important;
 }
 
 .about-us-Backg{
-    background-image: url(images2/industry-lanes-building-architectus_1.jpg);
+    background-image: url(../images2/industry-lanes-building-architectus_1.jpg);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: 35% auto;
@@ -256,7 +256,7 @@ color: green !important;
 
 }
 .our-service-backg{
-    background: url(images2/business-bg-_2.jpg);
+    background: url(../images2/business-bg-_2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover ;
@@ -272,7 +272,7 @@ color: green !important;
 
 
 .why-choose-background{
-    background-image: url(images2/appartment-1.jpg);
+    background-image: url(../images2/appartment-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -559,7 +559,7 @@ color: green !important;
     /* recent-work-bg CSS start  */
 
     .recent-work-bg{
-        background: url(images/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg);
+        background: url(../images/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover ;
