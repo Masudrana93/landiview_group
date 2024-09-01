@@ -7,9 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- lightbox's Css -->
   <link rel="stylesheet" href="css/lightbox.min.css">
 
@@ -20,11 +19,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- External Css  -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive-css.css">
 
 
   <title>Landview Group</title>
-  <link rel="icon" type="image/x-icon" href="/images2/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="images2/favicon.ico">
 
 
 </head>
@@ -33,96 +33,85 @@
 
   <!-- *************Header part Start********* -->
 
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg fixed-top border-bottom border-2 border-danger shadow-sm bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="index.html"><img class="img-fluid" src="images/main_logo.png" alt="Main Logo"></a>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow-sm border-bottom border-2 border-warning nav-backg-img bg-transparent">
+      <div class="offcanvas offcanvas-end bg-light bg-opacity-75" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="about-us.html">ABOUT US</a>
+            </li>
+            
+            <li class="nav-item dropdown">
 
-    <div class="container-fluid ">
-      <div class="container">
-        <div class="row">
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="properties.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PROPERTIES
+              </a>
+              <ul class="dropdown-menu bg-light bg-opacity-75 ps-3">
+                <li><a class="nav-link dropdown-item" href="luxury.html">Luxury</a></li>
+                <li><a class="nav-link dropdown-item" href="classic.html">Classic</a></li>
 
+                <li><a class="nav-link dropdown-item" href="wellness-communities.html">Wellness Communities</a></li>
 
-          <div class="col-md-2 col-4 px-0">
-            <a class="navbar-brand" href="index.html"><img style="width: 120px;" src="images/main_logo.png"
-                alt="Main Logo"></a>
-              
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-
-          <div class="col-md-9 col-4 d-flex justify-content-center ps-0">
-            <div class="collapse navbar-collapse" style="margin-left:0px;" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link link-menu text-danger mx-1 font-wt" aria-current="page" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-menu text-dark mx-1" href="about-us.html">ABOUT US</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle link-menu text-dark mx-1" href="properties.html"
-                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PROPERTIES
-                  </a>
-                  <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item link-menu text-dark" href="luxury.html">Luxury</a></li>
-                    <li class="dd-padding"><a class="dropdown-item link-menu text-dark" href="classic.html">Classic</a>
-                    </li>
-
-                    <li class="dd-padding"><a class="dropdown-item link-menu text-dark "
-                        href="wellness-communities.html">Wellness Communities</a></li>
-                    <li class="dd-padding"><a class="dropdown-item link-menu text-dark "
-                        href="commercial.html">Commercial</a></li>
-
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle link-menu text-dark mx-1" href="businesses.html"
-                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    BUSINESSES
-                  </a>
-                  <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item link-menu text-dark" href="landview-devel-design.html">Landview
-                        Development & Design Ltd.</a></li>
-                    <li class="dd-padding"><a class="dropdown-item link-menu text-dark"
-                        href="landview-builders.html">Landview Builders Ltd.</a></li>
-
-                    <li class="dd-padding"><a class="dropdown-item link-menu text-dark "
-                        href="landview-properties.html">
-                        Landview Properties Ltd.</a></li>
-                    <li class="dd-padding"><a class="dropdown-item link-menu text-dark "
-                        href="landview-engr-const.html">Landview Engineering & Constructions Ltd.</a></li>
-
-                  </ul>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link link-menu text-dark mx-1" aria-current="page" href="offers.html">OFFERS</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link link-menu text-dark mx-1" aria-current="page"
-                    href="construction-status.html">CONSTRUCTION STATUS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-menu text-dark mx-1" aria-current="page" href="contact-us.html">CONTACT US</a>
-                </li>
-
+                <li><a class="nav-link dropdown-item" href="commercial.html">Commercial</a></li>
               </ul>
-            </div>
-          </div>
+            </li>
 
-          <div class="col-md-1 col-4 d-flex justify-content-center align-items-center px-0">
-            <button type="button" class="btn jakano rounded-pill text-success font-wt" style="width: 100px; height: 50px; background-color: #FFD563;" data-bs-toggle="popover" title="Phone Number" data-bs-content="+880 1897-485737"><i class="bi bi-telephone"></i> Call</button>
-          </div>
+            <li class="nav-item dropdown">
+
+              <a class="nav-link mx-lg-2 dropdown-toggle" href="businesses.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BUSINESSES
+              </a>
+              <ul class="dropdown-menu bg-light bg-opacity-75 ps-3">
+                <li><a class="nav-link dropdown-item" href="landview-devel-design.html">Landview
+                    Development & Design Ltd.</a></li>
+                <li><a class="nav-link dropdown-item" href="landview-builders.html">Landview Builders Ltd.</a></li>
+
+                <li><a class="nav-link dropdown-item" href="landview-properties.html">
+                    Landview Properties Ltd.</a></li>
+
+                <li><a class="nav-link dropdown-item" href="landview-engr-const.html">Landview Engineering &
+                    Constructions Ltd.</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="offers.html">OFFERS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="construction-status.html">CONSTRUCTION STATUS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="contact-us.html">CONTACT US</a>
+            </li>
+
+          </ul>
+
         </div>
       </div>
+      <a class="login-button jakano"  data-bs-toggle="popover"  data-bs-content="01914449393"  href="tel:01914449393"><i class="bi bi-telephone"></i> Call</a>
+      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
   </nav>
 
+  <!-- Navbar End  -->
 
   <!-- *************Header part End********* -->
 
@@ -249,48 +238,50 @@
 
 <!-- **********Footer Part Start*********** -->
 
-<div class="container-fluid pt-5 " style="background-color: #0D1D35;">
+<div class="container-fluid pt-2 " style="background-color: #0D1D35;">
   <div class="container mt-5">
     <div class="row text-white">
       <div class="col-md-4 col-12 mb-2 mb-md-0">
-        <a href="index.html"><img class="mb-3" style="width: 100px; border-radius: 5px;" src="images/main_logo.png" alt="footer logo"></a>
+        <a href="index.html"><img class="mb-3" style="width: 100px; border-radius: 5px;" src="images/main_logo.png"
+            alt="footer logo"></a>
 
-        <p>Landview Group is a locally owned developer company in Gulshan, Dhaka that specializes in a full range of property services.</p>
-       <div class="all-socail-logo mt-4">
-            <div class="social-logo">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-            </div>
-            <div class="social-logo">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-            </div>
-            <div class="social-logo">
-              <a href="#"><i class="bi bi-instagram"></i></a>
-            </div>
-            <div class="social-logo">
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
-      </div>
+        <p>Landview Group is a locally owned developer company in Gulshan, Dhaka that specializes in a full range of
+          property services.</p>
+        <div class="all-socail-logo mt-4">
+          <div class="social-logo">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </div>
+          <div class="social-logo">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </div>
+          <div class="social-logo">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+          <div class="social-logo">
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
 
       </div>
-      <div class="col-md-2 col-12 quick-link">
+      <div class="col-md-2 col-12 quick-link mt-md-0 mt-3">
         <h5>Quick Links</h5>
-        <ul class="ps-0 mt-4">
+        <ul class="footer-border-right ps-0 mt-4">
           <li>
-           <a href="#aboutUs">About Us</a>
+            <a href="about-us.html">About Us</a>
           </li>
           <li>
-            <a href="house-cleaning.html">Services</a>
-           </li>
-           <li>
-            <a href="#portfolio">Portfolio</a>
-           </li>
-           <li>
-            <a href="#testimonials">Testimonials</a>
-           </li>
-           <li>
+            <a href="businesses.html">Businesses</a>
+          </li>
+          <li>
+            <a href="offers.html">Offers</a>
+          </li>
+          <li>
+            <a href="construction-status.html">Constraction Status</a>
+          </li>
+          <li>
             <a href="contact-us.html">Contact Us</a>
-           </li>
-          
+          </li>
+
         </ul>
       </div>
       <div class="col-md-3 col-12">
@@ -300,25 +291,29 @@
             <a href="#"><i class="bi bi-map"></i></a>
           </div>
           <div class="contact-address">
-            <p>Plot - 11/B (Navana Bilkis), Road -36, Gulshan 2, Dhaka-1212 </p>
+            <p>Plot-11/B (Navana Bilkis), Road -36, Gulshan 2, Dhaka-1212 </p>
           </div>
         </div>
 
         <div class="contact-info">
           <div class="contact-icon">
-              <a href="#"><i class="bi bi-telephone"></i></a>
+            <a href="#"><i class="bi bi-telephone"></i></a>
           </div>
           <div class="contact-address">
-            <a href="#" class="text-decoration-none"><p> +8802226 602299, +880 18 9748 5737 </p></a>
+            <a href="#" class="text-decoration-none">
+              <p> +8802226 602299, +880 18 9748 5737 </p>
+            </a>
           </div>
         </div>
 
         <div class="contact-info">
           <div class="contact-icon">
-              <a href="#"><i class="bi bi-envelope-open"></i></a>
+            <a href="#"><i class="bi bi-envelope-open"></i></a>
           </div>
           <div class="contact-address">
-            <a href="#" class="text-decoration-none"> <p>xyz@gmail.com</p> </a>
+            <a href="#" class="text-decoration-none">
+              <p>xyz@gmail.com</p>
+            </a>
           </div>
         </div>
       </div>
@@ -328,88 +323,101 @@
           <h5 class="mb-4">Gallery</h5>
 
           <div class="col-4 mb-md-4 mb-2">
-            <a class="example-image-link" href="images/service-03.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <a class="example-image-link" href="images2/business-bg-_2.jpg" data-lightbox="example-set"
+              data-title="Click the right half of the image to move forward.">
 
-                <img class="example-image img-fluid" src="images/service-03.jpg" alt=""/>
+              <img class="example-image img-fluid" src="images2/business-bg-_2.jpg" alt="" />
             </a>
           </div>
 
           <div class="col-4 mb-md-4 mb-2">
-            <a class="example-image-link" href="images/service-04.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <a class="example-image-link" href="images2/business-bg-_1.jpg" data-lightbox="example-set"
+              data-title="Click the right half of the image to move forward.">
 
-                <img class="example-image img-fluid" src="images/service-04.jpg" alt=""/>
+              <img class="example-image img-fluid" src="images2/business-bg-_1.jpg" alt="" />
             </a>
           </div>
 
           <div class="col-4 mb-md-4 mb-2">
-            <a class="example-image-link" href="images/service-06-1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <a class="example-image-link" href="images2/work-showcase-1.jpg" data-lightbox="example-set"
+              data-title="Click the right half of the image to move forward.">
 
-                <img class="example-image img-fluid" src="images/service-06-1.jpg" alt=""/>
+              <img class="example-image img-fluid" src="images2/work-showcase-1.jpg" alt="" />
             </a>
           </div>
 
           <div class="col-4 mb-md-4 mb-2">
-            <a class="example-image-link" href="images/full-shot-men-high-five-office_23-2149345549.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <a class="example-image-link" href="images2/business-bg-_3.jpg" data-lightbox="example-set"
+              data-title="Click the right half of the image to move forward.">
 
-                <img class="example-image img-fluid" src="images/full-shot-men-high-five-office_23-2149345549.png" alt=""/>
+              <img class="example-image img-fluid" src="images2/business-bg-_3.jpg" alt="" />
             </a>
           </div>
 
           <div class="col-4 mb-md-4 mb-2">
-            <a class="example-image-link" href="https://picsum.photos/id/8/800/600" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <a class="example-image-link" href="images2/work-showcase-2.jpg" data-lightbox="example-set"
+              data-title="Click the right half of the image to move forward.">
 
-                <img class="example-image img-fluid" src="https://picsum.photos/id/8/800/600" alt=""/>
+              <img class="example-image img-fluid" src="images2/work-showcase-2.jpg" alt="" />
             </a>
           </div>
 
           <div class="col-4 mb-md-4 mb-2">
-            <a class="example-image-link" href="https://picsum.photos/id/50/800/600" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <a class="example-image-link" href="images2/work-showcase-4.jpg" data-lightbox="example-set"
+              data-title="Click the right half of the image to move forward.">
 
-                <img class="example-image img-fluid" src="https://picsum.photos/id/50/800/600" alt=""/>
+              <img class="example-image img-fluid" src="images2/work-showcase-4.jpg" alt="" />
             </a>
           </div>
-        
-          
-         
+
+
+
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container border-top border-secondary mt-5 py-2">
+  <div class="container border-top border-secondary mt-5">
     <div class="row text-white">
       <div class="col-12 d-flex justify-content-center align-items-center ">
         <hr>
-        <p class="mb-0">Copyright ©2024 Landview Group - All rights reserved.</p>
+        <p class="mb-0">Copyright ©2024 Landview Group - All rights reserved | Developed by Masud Rana</p>
       </div>
     </div>
   </div>
 
 </div>
-  
-  <!-- **********Footer Part End*********** -->
-  
-  
-  
-      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-  
-      
-      <!-- Option 2: Separate Popper and Bootstrap JS -->
-      
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
-  
-      
-      <script src="js/lightbox-plus-jquery.min.js"></script>
-  
-      <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  
-    <!-- Initialize Swiper -->
 
-    <script src="Slider.js"></script>
+<!-- **********Footer Part End*********** -->
 
-    
-     
-    </body>
-  </html>
+
+<!-- Boostrap Js bundle with popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+
+
+<script src="Swiper-slider-recent-work.js"></script>
+
+<!-- popovers-js for call button -->
+
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+</script>
+
+
+
+
+</body>
+
+</html>
