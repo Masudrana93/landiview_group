@@ -128,6 +128,10 @@ color: green !important;
     margin-top: 90px;
 }
 
+.margin-about-top{
+    margin-top: 90px;
+}
+
 
 .all-socail-logo {
     display: flex;
@@ -667,3 +671,75 @@ color: green !important;
         margin: 0 10px;
         font-size: 13px;
       }
+
+      /* owl-carousel-slider-2 css start  */
+
+      .slider{
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    .slider .owl-item.active.center .slider-card{
+    
+        transform: scale(1.15);
+        opacity: 1;
+        background-color: #ccc;
+    }
+    
+    .slider-card{
+        background-color:#aaa ;
+        margin: 50px 15px 90px 15px ; 
+        border-radius: 5px;
+        box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
+        transform: scale(0.9);
+        opacity: 0.5;
+        transition: all 0.3s;
+    }
+    .slider-card img{
+        border-radius: 5px;
+    }
+    .owl-nav .owl-next{
+        position: absolute;
+        top: calc(50% - 50px);
+        right: 250px;
+        opacity: 1;
+        font-size: 50px !important;
+        z-index: 1;
+    }
+    
+    .owl-nav .owl-prev{
+        position: absolute;
+        top: calc(50% - 50px);
+        left:250px;
+        opacity: 1;
+        font-size: 50px !important;
+        z-index: 1;
+        
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+        background: rgba(180, 180, 180, 0.6) !important;
+        color: rgba(180, 180, 180, 0.8) !important;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px !important;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next:hover {
+        background: white !important;
+        color: rgba(180, 180, 180, 0.8) !important;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px !important;
+        transition: all 0.3s !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover{
+        background: white !important;
+        color: rgba(180, 180, 180, 0.8) !important;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px !important;
+        transition: all 0.3s !important;
+    }
+
+     /* owl-carousel-slider-2 css end  */
