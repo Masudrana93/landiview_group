@@ -124,6 +124,9 @@ color: green !important;
 .margin-top-125{
     margin-top: 125px;
 }
+.margin-contruct-top{
+    margin-top: 90px;
+}
 
 
 .all-socail-logo {
@@ -470,7 +473,7 @@ color: green !important;
 }
 
 .contact-us-part-one-backg{
-    background-image: url('images2/reception-desk-for-office.jpg');
+    background-image: url(../images2/reception-desk-for-office.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
