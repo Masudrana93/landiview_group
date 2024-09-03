@@ -324,7 +324,7 @@ color: green !important;
     background: white;
 }
 .service-part-one-backg{
-    background-image: url('images2/WilderBuildingSummerSolstice.jpg');
+    background-image: url(../images2/WilderBuildingSummerSolstice.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -359,7 +359,7 @@ color: green !important;
 }
 
 .vacation-cleaning-part{
-    background-image: url('images/woman-yellow-rubber-glove-cleaning-stove-kitchen-banner-photo.jpg');
+    background-image: url(../images/woman-yellow-rubber-glove-cleaning-stove-kitchen-banner-photo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -420,7 +420,7 @@ color: green !important;
 }
 
 .interior-construction-part{
-    background-image: url('images/professional-cleaners.jpg');
+    background-image: url(../images/professional-cleaners.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
