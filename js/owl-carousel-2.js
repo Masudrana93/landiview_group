@@ -5,7 +5,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:3000,
     center:true,
     nav:true,

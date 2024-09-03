@@ -675,7 +675,7 @@ color: green !important;
       /* owl-carousel-slider-2 css start  */
 
       .slider{
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         position: relative;
     }
     
@@ -688,7 +688,7 @@ color: green !important;
     
     .slider-card{
         background-color:#aaa ;
-        margin: 50px 15px 90px 15px ; 
+        margin: 50px 15px 50px 15px ; 
         border-radius: 5px;
         box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
         transform: scale(0.9);
@@ -742,4 +742,13 @@ color: green !important;
         transition: all 0.3s !important;
     }
 
-     /* owl-carousel-slider-2 css end  */
+    
+     .slider-card img {
+        width: 500px !important;
+        height: 300px !important;
+       
+        max-width: 100%;
+        
+     }
+
+     /* owl-carousel-slider-2 css End */
