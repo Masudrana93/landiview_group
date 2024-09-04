@@ -11,6 +11,9 @@
     .footer-border-right {
         border-right: none;
     }
+    .margin-mobile-bottom{
+      margin-bottom: 3px;
+    }
    
   }
   
