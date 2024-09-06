@@ -22,10 +22,31 @@
   .owl-nav .owl-prev{
       left:50px;
   }
-
-  /* .home-wellcome-font-size-title{
+  .box-title h5 {
     font-size: 15px;
-  } */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box-icon{
+  font-size: 25px;
+ 
+}
+  .home-wellcome-font-size-title{
+    font-size: 20px;
+  }
+
+  .select-location {
+    font-size: 14px;
+    padding: 3px 4px 3px 4px;
+}
+
+.padding-zero{
+  padding-left: 0;
+  padding-right:0 ;
+}
    
   }
   
