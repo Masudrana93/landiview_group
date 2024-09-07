@@ -323,6 +323,17 @@ color: green !important;
 .swiper-pagination-bullet {
     background: white;
 }
+.swiper-wrapper .swiper-slide{
+    width: 350px !important;
+    height: 350px !important;
+}
+
+.swiper-slide img{
+ 
+    max-width:100% !important;
+    max-height: 100% !important;
+}
+
 .service-part-one-backg{
     background-image: url(../images2/WilderBuildingSummerSolstice.jpg);
     background-position: center;
