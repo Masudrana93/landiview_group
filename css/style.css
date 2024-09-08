@@ -207,11 +207,15 @@ color: green !important;
     color: black !important;
     
 }
+.social-logo{
+    transition: all 0.3s;
+}
 
 .all-socail-logo .social-logo:hover{
  transform: scale(1.5);
  padding: 5px;
 }
+
 
 
 .W-Ch-Icon {
